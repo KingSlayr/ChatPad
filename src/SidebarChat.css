@@ -1,0 +1,28 @@
+.sidebarChat {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChat:hover {
+  background-color: #ebebebc0;
+}
+
+.sidebarChat_info {
+  margin-left: 15px;
+}
+
+.sidebarChat_info > h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.sidebarChat_info > p{
+  color: gray;
+  font-weight: 300;
+}
+.sidebarChat>.MuiAvatar-root {
+  width: 3.1em;
+  height: auto;
+}
